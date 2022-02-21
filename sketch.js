@@ -1,11 +1,6 @@
-// this is to get the canvas to be fullscreen
-const width = window.innerWidth;
-const height = window.innerHeight;
-
-
 function setup() {
-  // Sets the screen to be 720 pixels wide and 400 pixels high
-  createCanvas(width, height);
+  // Sets the canvas to be the size of the inner window
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
