@@ -1,6 +1,4 @@
 // this is intended for the GIT demo at GSD
-// Jose is generous GOD
-// I am tired 
 function setup() {
   // Sets the canvas to be the size of the inner window
   createCanvas(windowWidth, windowHeight);
