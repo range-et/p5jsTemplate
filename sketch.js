@@ -15,6 +15,7 @@ function draw() {
   stroke(255);
   point(width * 0.5, height * 0.5);
   point(width * 0.5, height * 0.25);
+  circle(width / 2, height / 2, 50);
 
   // Coordinates are used for drawing all shapes, not just points.
   // Parameters for different functions are used for different
